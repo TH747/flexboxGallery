@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Romanesco&display=swap');
+
+body {
+    font-family: 'Romanesco', cursive;
+    text-align: center;
+    background-color: black;
+    color: crimson;
+ }
+
+ h1 {
+    font-size: 80px;
+ }
+ 
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+img {
+    max-width: 50vw;
+    max-height: 50vh;
+    padding: 5px;
+}
+
+img:hover {
+    filter: blur(2px);
+    cursor: pointer;
+}
+
+
+
